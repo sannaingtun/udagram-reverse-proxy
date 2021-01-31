@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: sannaingtun/simple-reverse-proxy
+      - image: sannaingtun/udagram-reverse-proxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
